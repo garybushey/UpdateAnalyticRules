@@ -79,7 +79,7 @@ Function Update-AzSentinelAnalyticsRules ($workspaceName, $resourceGroupName) {
                         "enabled"               = $rule.properties.enabled
                         "eventGroupingSettings" = $rule.properties.eventGroupingSettings
                         "alertRuleTemplateName" = $rule.properties.alertRuleTemplateName
-                        "suppressionDuration"   = $rule.properties.suppressionDurationclear
+                        "suppressionDuration"   = $rule.properties.suppressionDuration
                         "suppressionEnabled"    = $rule.properties.suppressionEnabled
                         "incidentConfiguration" = $rule.properties.incidentConfiguration
                     }
